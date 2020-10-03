@@ -240,6 +240,6 @@ function initializeClock(id, endtime) {
   const timeinterval = setInterval(updateClock, 1000);
 }
 
-const deadline = new Date("Oct 3, 2020 09:00:00");
+const deadline = new Date("Oct 10, 2020 10:00:00");
 initializeClock('clockdiv', deadline);
 //timer ends

@@ -12,15 +12,17 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
-
 a {
-  color: #03C4EB;
+  color: #03c4eb;
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #03c5ec;
   outline: none;
   text-decoration: none;
@@ -31,7 +33,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -49,7 +56,6 @@ h1, h2, h3, h4, h5, h6 {
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
-
 
 /* Back to top button */
 .back-to-top {
@@ -78,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #03C4EB;
+  background: #03c4eb;
   color: #fff;
 }
 
@@ -103,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px;
 }
 
-#crce{
+#crce {
   max-width: 30%;
 }
 
@@ -143,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 span {
   color: #fff;
   transition: 0.3s;
-  border-bottom: 2px solid #03C4EB;
+  border-bottom: 2px solid #03c4eb;
 }
 
 @media (max-width: 768px) {
@@ -175,8 +181,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #03c4eb;
+  border: 2px solid #03c4eb;
   color: #fff;
 }
 
@@ -192,8 +198,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #03c4eb;
+  border: 2px solid #03c4eb;
 }
 
 /*--------------------------------------------------------------
@@ -204,6 +210,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+}
+
+.color-bg {
+  background-color: #0d0d0d !important;
 }
 
 #header .logo {
@@ -263,8 +273,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #03C4EB;
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: #03c4eb;
 }
 
 .nav-menu .drop-down ul {
@@ -300,8 +312,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #333333;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #03C4EB;
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
+  color: #03c4eb;
 }
 
 .nav-menu .drop-down > a:after {
@@ -395,8 +409,10 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #03C4EB;
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
+  color: #03c4eb;
   text-decoration: none;
 }
 
@@ -469,10 +485,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 40px;
 }
 
+.team-title {
+  color: #fff;
+}
+.team-desc {
+  color: #dbdbdb;
+}
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #03c4eb;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -524,7 +546,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../img/services-bg.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -535,11 +561,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #03c4eb;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #03c4eb;
 }
 
 #services .service-icon i {
@@ -552,7 +578,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #03c4eb;
 }
 
 #services .service-title {
@@ -574,7 +600,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/subscribe-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -610,8 +637,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #03c4eb;
+  border: 2px solid #03c4eb;
 }
 
 /* Portfolio Section
@@ -640,8 +667,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #03C4EB;
+#portfolio #portfolio-flters li:hover,
+#portfolio #portfolio-flters li.filter-active {
+  color: #03c4eb;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -678,7 +706,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
+#portfolio .portfolio-item .portfolio-info .preview-link,
+#portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 48px;
   font-size: 20px;
@@ -686,8 +715,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #4d4d4d;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #03C4EB;
+#portfolio .portfolio-item .portfolio-info .preview-link:hover,
+#portfolio .portfolio-item .portfolio-info .details-link:hover {
+  color: #03c4eb;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
@@ -720,6 +750,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.image-height {
+  height: 350px;
+}
+
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
@@ -746,7 +780,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #testimonials .profile h4 {
   font-weight: 700;
-  color: #03C4EB;
+  color: #03c4eb;
   margin-bottom: 5px;
 }
 
@@ -788,7 +822,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #testimonials .profile .social a:hover {
-  color: #03C4EB;
+  color: #03c4eb;
 }
 
 #testimonials .profile .social i {
@@ -796,12 +830,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 2px;
 }
 
-
-
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: #10104b;
   padding: 80px 0 60px 0;
 }
 
@@ -841,7 +873,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #team .member .social a:hover {
-  color: #03C4EB;
+  color: #03c4eb;
 }
 
 #team .member .social i {
@@ -857,13 +889,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contact .info {
+  display: flex;
+  justify-content: space-between;
   color: #333333;
+  align-items: center;
+  margin-top: 30px;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #10104b;
   float: left;
+}
+
+#contact .info i:hover {
+  color: rgb(3, 196, 235);
 }
 
 #contact .info p {
@@ -921,17 +961,19 @@ h1, h2, h3, h4, h5, h6 {
   animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input, #contact .php-email-form textarea {
+#contact .php-email-form input,
+#contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #03C4EB;
+#contact .php-email-form input::focus,
+#contact .php-email-form textarea::focus {
+  background-color: #03c4eb;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #03C4EB;
+  background: #03c4eb;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1020,7 +1062,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -1035,7 +1078,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #03C4EB !important;
+  background-color: #03c4eb !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1111,48 +1154,45 @@ h1, h2, h3, h4, h5, h6 {
   color: #ccc;
 }
 
-
 /*------Timer------*/
-.clk{
+.clk {
   color: black;
   font-weight: 100;
   /*margin: 40px 0px 20px;*/
-
 }
 
-#clockdiv{
-	font-family: sans-serif;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 30px;
+#clockdiv {
+  font-family: sans-serif;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
   color: white;
 }
 
-#clockdiv > div{
+#clockdiv > div {
   padding: 10px;
-	border-radius: 10px;
-	display: inline-block;
+  border-radius: 10px;
+  display: inline-block;
   /*background-color: #1a97c4;*/
   background-color: black;
 }
 
-#clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
-	display: inline-block;
-	-webkit-box-shadow: 10px 15px 40px -10px rgba(255,255,255,10.57);
-    -moz-box-shadow: 10px 15px 40px -10px rgba(255,255,255,10.57);
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 3px;
+  display: inline-block;
+  -webkit-box-shadow: 10px 15px 40px -10px rgba(255, 255, 255, 10.57);
+  -moz-box-shadow: 10px 15px 40px -10px rgba(255, 255, 255, 10.57);
 }
 
-.smalltext{
-	padding-top: 5px;
-	font-size: 22px;
+.smalltext {
+  padding-top: 5px;
+  font-size: 22px;
 }
-
 
 @media (max-width: 412px) {
-  #clockdiv{
+  #clockdiv {
     font-family: sans-serif;
     display: inline-grid;
     font-weight: 100;
@@ -1160,7 +1200,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
     color: white;
   }
-  #clockdiv > div{
+  #clockdiv > div {
     padding: 10px;
     border-radius: 10px;
     display: inline-block;
@@ -1171,6 +1211,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*------------Timer ends------*/
-#upcomingeve{
+#upcomingeve {
   margin-top: 10px;
 }
